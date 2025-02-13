@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML/JavaScript bug where attempting to access and modify the `innerHTML` of a non-existent element results in a silent failure. The JavaScript code executes without throwing an error, making it difficult to debug. The solution involves checking for the element's existence before attempting modification.
